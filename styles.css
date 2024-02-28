@@ -171,6 +171,7 @@ details[open] summary::before {
   font-size: 1.2em;
   font-weight: bold;
 }
+
 .highlight-2 {
   background-color: #fff;
   padding: 20px;
@@ -186,6 +187,7 @@ details[open] summary::before {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
+
 .testimonial-card .avatar {
   width: 110px;
   margin-top: -60px;
@@ -198,12 +200,16 @@ details[open] summary::before {
   border: 1px solid #22577a;
 }
 
+.card img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
 .cta {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
-
   color: #7b2358;
   border: 2px solid #7b2358;
   border-radius: 5px;
