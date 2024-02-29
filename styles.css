@@ -121,10 +121,6 @@ footer {
   font-weight: 400;
 }
 
-.img-banner {
-  margin-top: 6rem;
-}
-
 section .fas {
   font-size: 3rem;
   color: #7b2358;
@@ -171,7 +167,6 @@ details[open] summary::before {
   font-size: 1.2em;
   font-weight: bold;
 }
-
 .highlight-2 {
   background-color: #fff;
   padding: 20px;
@@ -187,7 +182,6 @@ details[open] summary::before {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-
 .testimonial-card .avatar {
   width: 110px;
   margin-top: -60px;
@@ -210,6 +204,7 @@ details[open] summary::before {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
+
   color: #7b2358;
   border: 2px solid #7b2358;
   border-radius: 5px;
