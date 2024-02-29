@@ -217,6 +217,29 @@ details[open] summary::before {
   background-color: #fff;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.3); 
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  transition: background-color 0.3s, opacity 0.3s; 
+}
+
+#back-to-top:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); 
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 14px;
